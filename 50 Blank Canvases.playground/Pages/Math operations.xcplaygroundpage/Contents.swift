@@ -22,8 +22,26 @@ let canvas = Canvas(width: 400, height: 300)
  
  Use whitespace and comments as appropriate.
  */
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
+// Delcare co-ordinates
 
+let x1 = 300.0
+let x2 = 450.0
+let y1 = 100.0
+let y2 = 500.0
+
+// Work out the distance between these points
+
+// Get differnece of the x's
+let deltaX = x1 - x2
+
+// Get difference of the y's
+let deltaY = y1 - y2
+
+//Get the sum of the squares
+let sumOfSquares = pow(deltaX, 2) + pow(DeltaY, 2)
+
+// FInally, evaluate the square root
+let result = sqrt(sumOfSquares)
 
 
 /*:
