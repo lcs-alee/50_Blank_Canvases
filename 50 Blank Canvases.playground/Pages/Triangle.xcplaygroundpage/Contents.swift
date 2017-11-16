@@ -29,6 +29,7 @@ canvas.translate(byX: 75, byY: 100)
 canvas.drawAxes()
 canvas.defaultLineWidth = 10
 
+
 // Step 2: Draw a side and rotate
 canvas.drawLine(fromX: 0, fromY: 0, toX: 200, toY: 0)
 canvas.translate(byX: 200, byY: 0)
