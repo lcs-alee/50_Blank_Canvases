@@ -1,5 +1,5 @@
 //: [Previous](@previous) / [Next](@next)
-//: # A Blank Canvas
+//: # Abstraction with Functions
 //:
 //: Use this page to experiment. Have fun!
 /*:
@@ -22,9 +22,27 @@ let canvas = Canvas(width: 400, height: 300)
  
  Use whitespace and comments as appropriate.
  */
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
+// Draw a triangle using the metapho of a "turtle"
 
+// Step 1: Move to the starting point
+canvas.translate(byX: 75, byY: 100)
+canvas.drawAxes()
+canvas.defaultLineWidth = 10
 
+// Step 2: Draw a side and rotate
+canvas.drawLine(fromX: 0, fromY: 0, toX: 200, toY: 0)
+canvas.translate(byX: 200, byY: 0)
+canvas.rotate(by: 120)
+
+// Step 3: Draw a side and rotate
+canvas.drawLine(fromX: 0, fromY: 0, toX: 200, toY: 0 )
+canvas.translate(byX: 200, byY: 0)
+canvas.rotate(by: 120)
+
+// Step 4: draw a side and rotate
+canvas.drawLine(fromX: 0, fromY: 0, toX: 200, toY: 0 )
+canvas.translate(byX: 200, byY: 0)
+canvas.rotate(by: 120)
 
 /*:
  ## Use source control

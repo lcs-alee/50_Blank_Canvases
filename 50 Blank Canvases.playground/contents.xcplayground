@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' display-mode='rendered' executeOnSourceChanges='false'>
+<playground version='6.0' target-platform='macos' display-mode='raw' executeOnSourceChanges='false'>
     <pages>
         <page name='Math operations'/>
-        <page name='Canvas 2'/>
         <page name='Canvas 3'/>
         <page name='Canvas 4'/>
-        <page name='Canvas 5'/>
+        <page name='Triangle'/>
         <page name='Canvas 6'/>
         <page name='Canvas 7'/>
         <page name='Canvas 8'/>
@@ -51,5 +50,6 @@
         <page name='Canvas 48'/>
         <page name='Canvas 49'/>
         <page name='Canvas 50'/>
+        <page name='circles'/>
     </pages>
 </playground>
