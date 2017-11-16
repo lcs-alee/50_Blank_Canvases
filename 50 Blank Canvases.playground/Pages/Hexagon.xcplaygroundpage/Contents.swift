@@ -13,7 +13,7 @@ import Cocoa
 import PlaygroundSupport
 
 // Create canvas
-let canvas = Canvas(width: 400, height: 300)
+let canvas = Canvas(width: 600, height: 500)
 
 /*:
  ## Add your code below
@@ -22,7 +22,19 @@ let canvas = Canvas(width: 400, height: 300)
  
  Use whitespace and comments as appropriate.
  */
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
+// Hexagon
+
+// Step 1 Move to start point
+canvas.translate(byX: 75, byY: 100)
+canvas.drawAxes()
+canvas.defaultLineWidth = 10
+
+// Use a loop to draw four sides
+for _ in 1...6 { // loops four times creates no veriable
+    canvas.drawLine(fromX: 0, fromY: 0, toX: 200, toY: 0)
+    canvas.translate(byX: 200, byY: 0)
+    canvas.rotate(by: 60)
+}
 
 
 
